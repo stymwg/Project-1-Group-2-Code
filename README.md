@@ -2,17 +2,20 @@
 ##Requires access to ssh server 10.102.161.8 - use command: ssh -i putty_key your_username@10.102.161.8
 
 ##General Info - Short Reads
+
 Short-read scripts (called SR_SX_script) assemble Illumina data into complete assemblies.
 Completed short-read assemblies for our five samples can be found in the Short-Reads branch under notation assembly_SX_SR.fasta (X=sample identity)
 The QC for each assembly can be found under notation QC_SX_SR.txt. The scripts used to produce these QC outputs can be found under notation Pilon Polished assemblies can also be found in the repository under notation polished_assembly_SR_SX.fasta. The QC for each polished assembly can be found under notation QC_polishedSX_SR.txt. The scripts used to produce these QC outputs can be found under notation
 
 ##General Info - Long Reads
+
 Long-read scripts (called SX_pass_only.sh) assemble Nanopore data into complete assemblies.
 Completed long-read assemblies of passed reads for our five samples can be found in the Long-Reads branch under notation assembly_LR_SX.fasta. The QC for each assembly can be found under notation QC_SX_LR.txt.
 The scripts used to produce these QC outputs can be found under notation Medaka Polished assemblies can also be found within the repository under notation medaka_LR_SX.fasta. The scripts used to produce these polished assemblies can be found under notation medaka_LR_SX.sh The QC for each polished assembly can be found under notation QC_medakaSX_LR.txt.
 The scripts used to produce these QC outputs can be found under notation
 
 ##General Info - Hybrid
+
 Hybrid scripts assemble both short and long-read data into complete assemblies. Our hybrid assemblies for samples one and five can be found in the Hybrid branch.
 The script used to produce this hybrid assembly is called hybrid_S5.sh.
 
