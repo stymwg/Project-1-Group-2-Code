@@ -1,7 +1,8 @@
 # Project-1-Group-2-Code
 ##Requires access to ssh server 10.102.161.8 - use command: ssh -i putty_key your_username@10.102.161.8
 
-##General Info - Short Reads Short-read scripts (called SR_SX_script) assemble Illumina data into complete assemblies.
+##General Info - Short Reads
+Short-read scripts (called SR_SX_script) assemble Illumina data into complete assemblies.
 Completed short-read assemblies for our five samples can be found in the Short-Reads branch under notation assembly_SX_SR.fasta (X=sample identity)
 The QC for each assembly can be found under notation QC_SX_SR.txt. The scripts used to produce these QC outputs can be found under notation Pilon Polished assemblies can also be found in the repository under notation polished_assembly_SR_SX.fasta. The QC for each polished assembly can be found under notation QC_polishedSX_SR.txt. The scripts used to produce these QC outputs can be found under notation
 
